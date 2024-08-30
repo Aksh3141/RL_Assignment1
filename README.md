@@ -16,8 +16,8 @@ The diagram for visualizing the MDP has been provided in the report.
 In this question a maze was given and we were supposed to find an optimal path throught the maze, this question can be modeled as an MDP and can thus be solved by methods like policy iteration and value iteration.
 The problem can be formulated as a Markov Decision Process (MDP) as follows:
 
--> Each cell of the maze represents a distinct state in the MDP.
--> State transitions are deterministic, meaning that each action leads to a specific next state with a probability of 1.
--> The maze contains walls; any action that would lead to a state occupied by a wall results in the agent remaining in its current state.
-->There is a teleportation cell in the maze; any action taken in this cell instantly transports the agent to a different, predetermined cell. This teleportation works only one way.
+-> Each cell of the maze represents a distinct state in the MDP.<br>
+-> State transitions are deterministic, meaning that each action leads to a specific next state with a probability of 1.<br>
+-> The maze contains walls; any action that would lead to a state occupied by a wall results in the agent remaining in its current state.<br>
+->There is a teleportation cell in the maze; any action taken in this cell instantly transports the agent to a different, predetermined cell. This teleportation works only one way.<br>
 -> There is a reward of +1 on the final state and 0 for all other state.
