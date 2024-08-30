@@ -13,7 +13,7 @@ The diagram for visualizing the MDP has been provided in the report.
 
 # Question 2
 
-In this question a maze was given and we were supposed to find an optimal path throught the maze, this question can be modeled as an MDP and can thus be solved by methods like policy iteration and value iteration.
+In this question a maze was given and we were supposed to find an optimal path through the maze, this question can be modeled as an MDP and can thus be solved by methods like policy iteration and value iteration.
 The problem can be formulated as a Markov Decision Process (MDP) as follows:
 
 -> Each cell of the maze represents a distinct state in the MDP.<br>
